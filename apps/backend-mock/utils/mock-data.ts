@@ -78,6 +78,14 @@ const dashboardMenus = [
           title: 'page.dashboard.workspace',
         },
       },
+      {
+        name: 'Analytics2',
+        path: '/analytics2',
+        component: '/dashboard/analytics2/index',
+        meta: {
+          title: '分析页2',
+        },
+      },
     ],
   },
 ];
@@ -125,6 +133,15 @@ const createDemosMenus = (role: 'admin' | 'super' | 'user') => {
       path: '/demos',
       redirect: '/demos/access',
       children: [
+        {
+          name: 'MyPageDemo',
+          path: '/demos/my-page',
+          component: '/demos/my-page/index',
+          meta: {
+            icon: 'lucide:star',
+            title: '我的新页面',
+          },
+        },
         {
           name: 'AccessDemos',
           path: '/demosaccess',

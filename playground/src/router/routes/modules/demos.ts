@@ -85,6 +85,16 @@ const routes: RouteRecordRaw[] = [
           },
         ],
       },
+      // 我的页面
+      {
+        name: 'MyPageDemo',
+        path: '/demos/my-page',
+        component: () => import('#/views/demos/my-page/index.vue'),
+        meta: {
+          icon: 'lucide:star',
+          title: '我的新页面',
+        },
+      },
       // 功能
       {
         meta: {

@@ -31,6 +31,24 @@ const routes: RouteRecordRaw[] = [
           title: $t('page.dashboard.workspace'),
         },
       },
+      {
+        name: 'Analytics2',
+        path: '/analytics2',
+        component: () => import('#/views/dashboard/analytics2/index.vue'),
+        meta: {
+          icon: 'lucide:bar-chart-3',
+          title: '分析页2',
+        },
+      },
+      {
+        name: 'Demo_1',
+        path: '/demo_1',
+        component: () => import('#/views/dashboard/demo_1/index.vue'),
+        meta: {
+          icon: 'lucide:bar-chart-3',
+          title: 'demo1',
+        },
+      },
     ],
   },
 ];

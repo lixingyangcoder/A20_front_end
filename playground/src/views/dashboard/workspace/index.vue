@@ -33,7 +33,7 @@ const projectItems: WorkbenchProjectItem[] = [
     color: '',
     content: '不要等待机会，而要创造机会。',
     date: '2021-04-01',
-    group: '开源组',
+    group: '开源组吗',
     icon: 'carbon:logo-github',
     title: 'Github',
     url: 'https://github.com',
@@ -239,7 +239,7 @@ function navTo(nav: WorkbenchProjectItem | WorkbenchQuickNavItem) {
       :avatar="userStore.userInfo?.avatar || preferences.app.defaultAvatar"
     >
       <template #title>
-        早安, {{ userStore.userInfo?.realName }}, 开始您一天的工作吧！
+        早安, {{ userStore.userInfo?.realName }}, 开始您一天的工作吧李星阳！
       </template>
       <template #description> 今日晴，20℃ - 32℃！ </template>
     </WorkbenchHeader>
